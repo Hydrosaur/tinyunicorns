@@ -1,0 +1,31 @@
+p {
+	color: purple;
+}
+#saberlilygolden {
+	color: #3a2c04;
+}
+body {
+	background-color: hotpink;
+	font-family: sans-serif;
+}
+
+img {
+	border: 5px groove blue;
+	transition: box-shadow 0.5s ease-in-out;
+	transition: transform 0.5s ease-in-out;
+}
+
+img:hover {
+	border: 5px groove blue;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.rotated {
+  transform: rotate(180deg);
+  -ms-transform: rotate(180deg); /* IE 9 */
+  -moz-transform: rotate(180deg); /* Firefox */
+  -webkit-transform: rotate(180deg); /* Safari and Chrome */
+  -o-transform: rotate(180deg); /* Opera */
+}
